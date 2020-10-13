@@ -21,6 +21,24 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+
+
+
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Housing</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- jquary -->
+    <script type="text/javascript src" jquary/index.js">
+    </script>
+
+
+
 </head>
 
 <body>
@@ -70,7 +88,7 @@
     <!-- Offcanvas Menu End -->
 
     <!-- Header Section Begin -->
-    <header class="header">
+    <header class="header header--normal">
         <div class="container">
             <div class="row">
                 <div class="col-lg-2">
@@ -81,9 +99,9 @@
                 <div class="col-lg-5">
                     <nav class="header__menu">
                         <ul>
-                            <li class="active"><a href="./index.html">Home</a></li>
+                            <li><a href="./index.html">Home</a></li>
                             <li><a href="./courses.html">Courses</a></li>
-                            <li><a href="#">Pages</a>
+                            <li class="active"><a href="#">Pages</a>
                                 <ul class="dropdown">
                                     <li><a href="./about.html">About</a></li>
                                     <li><a href="./instructor.html">Instructor</a></li>
@@ -122,297 +140,236 @@
     </header>
     <!-- Header Section End -->
 
-    <!-- Hero Section Begin -->
-    <section class="hero set-bg" data-setbg="img/hero-bg.jpg">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <div class="hero__text">
-                        <h5>Best options for you</h5>
-                        <h2>drive safe & get license</h2>
-                        <a href="#" class="primary-btn">Contact us</a>
-                        <a href="#" class="primary-btn second-bg">See Courses</a>
-                    </div>
-                </div>
-            </div>
+    <div class="firstIm" style="text-align: center; background-image: url(img/housing/background.jpg);">
+        <br>
+        <div>
+            <h1 style="color: rgb(253, 253, 253); font-style: oblique;">
+                FREE!
+            </h1>
+            <h2 style="color: cornsilk;">
+                Get Listing Exposure
+                Submit Your Property
+            </h2>
         </div>
-    </section>
-    <!-- Hero Section End -->
+        <a class="btn" style="margin-top: 10%; display: inline-block;
+        padding: 15px 25px;
+        font-size: 24px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        color: #fff;
+        background-color: rgb(44, 58, 71) ;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 9px #999;" href="PostYourAdd.html">
+            PostYourAdd
+        </a>
+    </div>
 
-    <!-- Feature Section Begin -->
-    <section class="feature spad">
+    <!-- Breadcrumb Begin -->
+    <div class="breadcrumb-option">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-4">
-                    <div class="feature__text">
-                        <div class="section-title">
-                            <span>Why choose us ?</span>
-                            <h2>Our feature</h2>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua viverra maecenas facilisis. </p>
-                        <a href="#" class="primary-btn second-bg">See Courses</a>
+                <div class="col-lg-6">
+                    <div class="breadcrumb__links">
+                        <a href="./index.html"><i class="fa fa-home"></i> Home</a>
+                        <a href="#">Pages</a>
+                        <span>Housing</span>
                     </div>
                 </div>
-                <div class="col-lg-8 col-md-8">
+                <div class="col-lg-6">
                     <div class="row">
-                        <div class="col-lg-6 col-md-6 col-sm-6">
-                            <div class="feature__item">
-                                <img src="img/feature/feature-1.png" alt="">
-                                <h5>Unlimited Car Support</h5>
+                        <div class="col-lg-4">
+
+
+                            <div class="col-lg-4 col-md-4 col-sm-6" style="margin-left: 92%;">
+                                <select>
+                                    <option value="">Country</option>
+                                    <option value="">Sri Lanka</option>
+                                    <option value="">India</option>
+                                    <option value="">Malaysia</option>
+                                    <option value="">Bangladesh</option>
+                                </select>
                             </div>
-                            <div class="feature__item">
-                                <img src="img/feature/feature-2.png" alt="">
-                                <h5>Driving School Insures</h5>
-                            </div>
+
                         </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6">
-                            <div class="feature__item right-column">
-                                <img src="img/feature/feature-3.png" alt="">
-                                <h5>Any Time Any Location</h5>
+
+                        <div class="col-lg-4">
+
+
+                            <div class="col-lg-4 col-md-4 col-sm-6" style="margin-left: 60%;">
+                                <select>
+                                    <option value="">Price Range</option>
+                                    <option value="">Below 20 000</option>
+                                    <option value="">20 000 to 50 000</option>
+                                    <option value=""> 50 000 to 100 000</option>
+                                    <option value="">Over 100 000</option>
+                                </select>
                             </div>
+
                         </div>
+
+                        <div class="col-lg-4">
+
+
+                            <div class="col-lg-4 col-md-4 col-sm-6 " style="margin-left: 40%;">
+                                <select>
+                                    <option value=""><a href="./instructor.html">Renting </a> </option>    
+                                    <option value=""><a href="./salePage.html">Selling</a></option>
+                                </select>
+                              
+                            </div>
+
+                        </div>
+
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <!-- Feature Section End -->
+    </div>
+    <!-- Breadcrumb End -->
 
-    <!-- About Video Section Begin -->
-    <section class="about-video">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 p-0">
-                    <div class="about__video__bg set-bg" data-setbg="img/video-bg.jpg">
-                        <a href="https://www.youtube.com/watch?v=bGuHgRQSEuk" class="play-btn video-popup"><i
-                                class="fa fa-play"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-6 p-0">
-                    <div class="about__video__text">
-                        <div class="section-title">
-                            <span>Welcome to Online trafic school</span>
-                            <h2>looking for lessons?</h2>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Quis ipsum vidnas accumsan lacus vel facilisis. </p>
-                        <a href="#" class="primary-btn second-bg">Learn more</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- About Video Section End -->
-
-    <!-- Application Form Section Begin -->
-    <section class="application-form spad">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-title center-title">
-                        <span>Giving Best Options For You</span>
-                        <h2>Application Form</h2>
-                    </div>
-                </div>
-            </div>
-            <form>
-                <div class="row">
-                    <div class="col-lg-4 col-md-4 col-sm-6">
-                        <input type="text" placeholder="Your name">
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6">
-                        <input type="text" placeholder="Your Email">
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6">
-                        <input type="text" placeholder="Your Phone">
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6">
-                        <input type="text" class="datepicker_pop" placeholder="Date & time">
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6">
-                        <select>
-                            <option value="">Courses type</option>
-                            <option value="">Safe Driving Courses</option>
-                            <option value="">Motorhome Drivers</option>
-                        </select>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6">
-                        <select>
-                            <option value="">Car type</option>
-                            <option value="">Hatchback</option>
-                            <option value="">Sedan</option>
-                        </select>
-                    </div>
-                    <div class="col-lg-12 text-center">
-                        <button type="submit" class="site-btn">SEND INQUIRY</button>
-                    </div>
-                </div>
-            </form>
-        </div>
-    </section>
-    <!-- Application Form Section End -->
-
-    <!-- Pricing Section Begin -->
-    <section class="pricing spad set-bg" data-setbg="img/pricing-bg.jpg">
+    <!-- House Section Begin -->
+    <section class="team team--instructor spad">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title center-title">
-                        <span>Get Special Offer</span>
-                        <h2>Our Pricing</h2>
+                        <span>Find your stay!</span>
+                        <h2>Housing Section</h2>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="pricing__item">
-                        <div class="pricing__item__title">
-                            <span>20% off</span>
-                            <h2>$ 199</h2>
-                            <h5>Personal Driving</h5>
+                <div class="col-lg-6">
+                    <div class="team__item">
+                        <div class="team__item__img" style="width: 5cm; height: 4cm;">
+                            <img src="img/housing/h1.jpg" alt="">
                         </div>
-                        <ul>
-                            <li>Full course theory</li>
-                            <li>Full driving course</li>
-                            <li>Training in first aid</li>
-                            <li>Practical sessions</li>
-                            <li>Psychological support</li>
-                        </ul>
-                        <a href="#" class="primary-btn second-bg">get Started</a>
+                        <div class="team__item__text">
+                            <h5>House for Sale in Nugegoda</h5>
+                            <span>Nugegoda</span>
+                            <p>price : LKR 10000000</p>
+                            <div class="team__item__social">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-instagram"></i></a>
+                                <a href="#"><i class="fa fa-dribbble"></i></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="pricing__item">
-                        <div class="pricing__item__title">
-                            <span>20% off</span>
-                            <h2>$ 379</h2>
-                            <h5>Power Booster</h5>
+                <div class="col-lg-6">
+                    <div class="team__item">
+                        <div class="team__item__img" style="width: 5cm; height: 4cm;">
+                            <img src="img/housing/h3.jpg" alt="">
                         </div>
-                        <ul>
-                            <li>Full course theory</li>
-                            <li>Full driving course</li>
-                            <li>Training in first aid</li>
-                            <li>Practical sessions</li>
-                            <li>Psychological support</li>
-                        </ul>
-                        <a href="#" class="primary-btn second-bg">get Started</a>
+                        <div class="team__item__text">
+                            <h5>House for Sale in Moratuwa</h5>
+                            <span>Moratuwa</span>
+                            <p>Price : LKR 25,000,000</p>
+                            <div class="team__item__social">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-instagram"></i></a>
+                                <a href="#"><i class="fa fa-dribbble"></i></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="pricing__item">
-                        <div class="pricing__item__title">
-                            <span>20% off</span>
-                            <h2>$ 259</h2>
-                            <h5>Freight Driving</h5>
+                <div class="col-lg-6">
+                    <div class="team__item">
+                        <div class="team__item__img" style="width: 5cm; height: 4cm;">
+                            <img src="img/housing/h4.jpg" alt="">
                         </div>
-                        <ul>
-                            <li>Full course theory</li>
-                            <li>Full driving course</li>
-                            <li>Training in first aid</li>
-                            <li>Practical sessions</li>
-                            <li>Psychological support</li>
-                        </ul>
-                        <a href="#" class="primary-btn second-bg">get Started</a>
+                        <div class="team__item__text">
+                            <h5>Three bed house for Sale in Malabe</h5>
+                            <span>Malabe</span>
+                            <p> price : LKR 28,500,000</p>
+                            <div class="team__item__social">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-instagram"></i></a>
+                                <a href="#"><i class="fa fa-dribbble"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="team__item">
+                        <div class="team__item__img" style="width: 5cm; height: 4cm;">
+                            <img src="img/housing/h5.jpg" alt="">
+                        </div>
+                        <div class="team__item__text">
+                            <h5>House for Sale Katana Town</h5>
+                            <span>Negombo</span>
+                            <p>price : LKR 14,000,000</p>
+                            <div class="team__item__social">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-instagram"></i></a>
+                                <a href="#"><i class="fa fa-dribbble"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="team__item">
+                        <div class="team__item__img" style="width: 5cm; height: 4cm;">
+                            <img src="img/housing/h1.jpg" alt="">
+                        </div>
+                        <div class="team__item__text">
+                            <h5>Luxery House for Sale in Homagama</h5>
+                            <span>Homagama</span>
+                            <p>price : LKR 30,500,000</p>
+                            <div class="team__item__social">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-instagram"></i></a>
+                                <a href="#"><i class="fa fa-dribbble"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="team__item">
+                        <div class="team__item__img" style="width: 5cm; height: 4cm;">
+                            <img src="img/housing/h1.jpg" alt="">
+                        </div>
+                        <div class="team__item__text">
+                            <h5>Luxery House for Sale in Kandana Town</h5>
+                            <span>Kandana</span>
+                            <p>price : LKR 38,500,000</p>
+                            <div class="team__item__social">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-instagram"></i></a>
+                                <a href="#"><i class="fa fa-dribbble"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="pagination__option">
+                        <a href="#">1</a>
+                        <a href="#">2</a>
+                        <a href="#">3</a>
+                        <a href="#">Next</a>
                     </div>
                 </div>
             </div>
         </div>
+        <!-- <div style="text-align: center;">
+            <ul>
+              <li><a style="background-color: thistle;" href="#home">1</a></li>
+              <li><a href="#news">2</a></li>
+              <li><a href="#contact">3</a></li>
+              <li><a href="#about">4</a></li>
+            </ul>
+          </div> -->
     </section>
-    <!-- Pricing Section End -->
-
-    <!-- Team Section Begin -->
-    <section class="team spad">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-7 col-md-7 col-sm-7">
-                    <div class="section-title">
-                        <span>Our Great Team</span>
-                        <h2>Our Instructors</h2>
-                    </div>
-                </div>
-                <div class="col-lg-5 col-md-5 col-sm-5">
-                    <div class="team__all">
-                        <a href="#" class="primary-btn second-bg">View all</a>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="team__item">
-                        <div class="team__item__img">
-                            <img src="img/team/team-1.png" alt="">
-                        </div>
-                        <div class="team__item__text">
-                            <h5>DAVID WARNER</h5>
-                            <span>Instructor</span>
-                            <p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor.</p>
-                            <div class="team__item__social">
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-instagram"></i></a>
-                                <a href="#"><i class="fa fa-dribbble"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="team__item">
-                        <div class="team__item__img">
-                            <img src="img/team/team-2.png" alt="">
-                        </div>
-                        <div class="team__item__text">
-                            <h5>DAVID WARNER</h5>
-                            <span>Instructor</span>
-                            <p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor.</p>
-                            <div class="team__item__social">
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-instagram"></i></a>
-                                <a href="#"><i class="fa fa-dribbble"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="team__item">
-                        <div class="team__item__img">
-                            <img src="img/team/team-3.png" alt="">
-                        </div>
-                        <div class="team__item__text">
-                            <h5>DAVID WARNER</h5>
-                            <span>Instructor</span>
-                            <p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor.</p>
-                            <div class="team__item__social">
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-instagram"></i></a>
-                                <a href="#"><i class="fa fa-dribbble"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="team__item">
-                        <div class="team__item__img">
-                            <img src="img/team/team-4.png" alt="">
-                        </div>
-                        <div class="team__item__text">
-                            <h5>DAVID WARNER</h5>
-                            <span>Instructor</span>
-                            <p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor.</p>
-                            <div class="team__item__social">
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-instagram"></i></a>
-                                <a href="#"><i class="fa fa-dribbble"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+ 
     <!-- Team Section End -->
 
     <!-- Footer Section Begin -->
@@ -473,7 +430,10 @@
                 <div class="col-lg-12 text-center">
                     <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                     <div class="footer__copyright__text">
-                        <p>Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+                        <p>Copyright &copy;
+                            <script>document.write(new Date().getFullYear());</script> All rights reserved | This
+                            template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a
+                                href="https://colorlib.com" target="_blank">Colorlib</a></p>
                     </div>
                     <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                 </div>

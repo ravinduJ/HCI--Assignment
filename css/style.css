@@ -111,6 +111,30 @@ ol {
 /*---------------------
   Helper CSS
 -----------------------*/
+.btn{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(44, 58, 71) ;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.firstIm{
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background: url(https://www.bing.com/images/search?view=detailV2&ccid=RjGQinvv&id=9B3DB892368C5FCD042E2C5F3077F322CC9062F0&thid=OIP.RjGQinvvru336AwLhnmGkgHaFj&mediaurl=https%3A%2F%2Fwww.historichouses.org%2Fuploads%2Fassets%2Fuploaded%2Fe2268e85-be4c-4328-9dbaadaa2e13973f.jpg&exph=2916&expw=3888&q=house&simid=608050224152185258&ck=58A7E3F602D7FB05ACAD4DBF82B6362A&selectedindex=3&form=IRPRST&ajaxhist=0&vt=0&sim=11);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
 
 .section-title {
 	margin-bottom: 45px;
@@ -2907,4 +2931,6 @@ ol {
 		width: 100%;
 		font-size: 24px;
 	}
+
+
 }
