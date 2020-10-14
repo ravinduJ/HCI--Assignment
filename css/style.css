@@ -99,7 +99,7 @@ a:hover,
 a:focus {
 	text-decoration: none;
 	outline: none;
-	color: #ffffff;
+	color:black;
 }
 
 ul,
@@ -192,7 +192,7 @@ ol {
 	font-weight: 700;
 	text-transform: uppercase;
 	padding: 14px 30px;
-	color: #ffffff;
+	color: black;
 	background: #f3bd00;
 	letter-spacing: 1px;
 }
@@ -354,7 +354,7 @@ ol {
 -----------------------*/
 
 .header {
-	background: #0c2b4b;
+	background: #ffffff;
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -366,7 +366,7 @@ ol {
 }
 
 .header__logo {
-	padding: 33px 0 31px;
+	padding: 10px 0 20px;
 	position: relative;
 	z-index: 1;
 }
@@ -377,7 +377,7 @@ ol {
 	top: 0;
 	width: 580px;
 	height: 100%;
-	background: #f3bd00;
+	background: #fafafa;
 	content: "";
 	z-index: -1;
 	-webkit-clip-path: polygon(0% 0%, 100% 0%, 96% 100%, 0% 100%);
@@ -440,7 +440,7 @@ ol {
 
 .header__menu ul li .dropdown li a {
 	font-size: 14px;
-	color: #ffffff;
+	color: #000000;
 	font-weight: 400;
 	padding: 8px 20px;
 	text-transform: capitalize;
@@ -454,7 +454,7 @@ ol {
 	font-size: 14px;
 	font-weight: 700;
 	text-transform: uppercase;
-	color: #ffffff;
+	color:#000000;
 	display: block;
 	padding: 6px 0;
 	position: relative;
