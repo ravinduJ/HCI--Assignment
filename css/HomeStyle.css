@@ -1,0 +1,48 @@
+.card-modify {
+    border-style: none;
+    padding: 10px;
+}
+
+.card-modify:hover{
+    border-style: outset;
+    border-width: 1px;
+    border-color: #444444;
+}
+
+.custom-style{
+    background-color: #f0f0f0;
+}
+
+body{
+    /* background-color: #bebdbd; */
+}
+
+.row-cols-4{
+    background-color: #f3f3f3;
+}
+
+
+/* 
+.seeMore h5{
+    background-color: #ed9726;
+    height: 40px;
+    width: 100px;
+} */
+
+.link-seemore{
+    padding: 10px;
+    background-color: #ed9726;
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+.custom-align-subHeading{
+    margin-top: 35px;
+}
+
+.sub-heading{
+    padding: 10px;
+    background-color: #a94df0;
+    color: #ffffff;
+    font-weight: bolder;
+}
