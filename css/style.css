@@ -354,7 +354,7 @@ ol {
 -----------------------*/
 
 .header {
-	background: #ffffff;
+	background: #0c2b4b;
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -377,7 +377,7 @@ ol {
 	top: 0;
 	width: 580px;
 	height: 100%;
-	background: #fafafa;
+	background: #e9e7e7;
 	content: "";
 	z-index: -1;
 	-webkit-clip-path: polygon(0% 0%, 100% 0%, 96% 100%, 0% 100%);
@@ -440,7 +440,7 @@ ol {
 
 .header__menu ul li .dropdown li a {
 	font-size: 14px;
-	color: #000000;
+	color: #ffffff;
 	font-weight: 400;
 	padding: 8px 20px;
 	text-transform: capitalize;
@@ -454,7 +454,7 @@ ol {
 	font-size: 14px;
 	font-weight: 700;
 	text-transform: uppercase;
-	color:#000000;
+	color:#ffffff;
 	display: block;
 	padding: 6px 0;
 	position: relative;
