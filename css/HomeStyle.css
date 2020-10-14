@@ -10,7 +10,7 @@
 }
 
 .custom-style{
-    background-color: #f0f0f0;
+    /* background-color: #f0f0f0; */
 }
 
 body{
@@ -31,7 +31,7 @@ body{
 
 .link-seemore{
     padding: 10px;
-    background-color: #ed9726;
+    background-color:#f3bd00;
     color: #ffffff;
     font-weight: bolder;
 }

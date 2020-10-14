@@ -377,7 +377,7 @@ ol {
 	top: 0;
 	width: 580px;
 	height: 100%;
-	background: #e9e7e7;
+	background:#fcc80a;
 	content: "";
 	z-index: -1;
 	-webkit-clip-path: polygon(0% 0%, 100% 0%, 96% 100%, 0% 100%);
