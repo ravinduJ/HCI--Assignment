@@ -91,3 +91,49 @@
     border: none;
 }
 
+.service-Trans{
+    width: 100%;
+    height: 50vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.61),rgba(2, 2, 2, 0.671)), url('./pic/2.jpg')center/cover no-repeat fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-Finance{
+    width: 100%;
+    height: 50vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.61),rgba(2, 2, 2, 0.671)), url('./pic/4.jpg')center/cover no-repeat fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-buss{
+    width: 100%;
+    height: 50vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.61),rgba(2, 2, 2, 0.671)), url('./pic/12.jpg')center/cover no-repeat fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-helth{
+    width: 100%;
+    height: 50vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.61),rgba(2, 2, 2, 0.671)), url('./pic/13.jpg')center/cover no-repeat fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-mech{
+    width: 100%;
+    height: 50vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.61),rgba(2, 2, 2, 0.671)), url('./pic/7.jpg')center/cover no-repeat fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
