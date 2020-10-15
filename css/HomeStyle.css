@@ -5,17 +5,18 @@
 
 .card-modify:hover{
     border-style: outset;
-    border-width: 1px;
-    border-color: #444444;
+    border-width: 2px;
+    border-color: #e6e4e4;
+   bord
 }
 
 
 
 
 
-.row-cols-4{
+/* .row-cols-4{
     background-color: #f3f3f3;
-}
+} */
 
 
 /* 
@@ -27,7 +28,7 @@
 
 .link-seemore{
     padding: 10px;
-    background-color:#f3bd00;
+    background-color:#ecb605;
     color: #ffffff;
     font-weight: bolder;
 }
@@ -38,7 +39,8 @@
 
 .sub-heading{
     padding: 10px;
-    background-color: #a94df0;
+    background-color: #090268;
     color: #ffffff;
     font-weight: bolder;
 }
+
