@@ -201,6 +201,14 @@ ol {
 	background: #0c2b4b;
 }
 
+.btn-block{
+	border-style: none;
+	box-shadow: none;
+	border-radius: 0px;
+}
+
+
+
 .site-btn {
 	font-size: 14px;
 	color: #ffffff;
