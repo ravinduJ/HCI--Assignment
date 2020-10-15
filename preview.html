@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Dreams Template">
+    <meta name="keywords" content="Dreams, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>sell</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/h1.css" type="text/css">
+    <link rel="stylesheet" href="css/view.css" type="text/css">
+
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Offcanvas Menu Begin -->
+ 
+
+    <div class="container">
+        <div class="row">
+          <div class="col justify-content-center">
+            <h1 style="text-align:center;font-size:50px;color:#afe1ed">Post Preview</h1>
+          </div>
+        </div>
+      </div>
+      <div id="content-wrapper">
+  
+            <div class="column">
+                <img id=featured src="img/geeth/img1.jpg">
+  
+                <div id="slide-wrapper" >
+                    <img id="slideLeft" class="arrow" src="img/geeth/arrow-left.png">
+  
+                    <div id="slider">
+                        <img class="thumbnail active" src="img/geeth/img12.jpg">
+                        <img class="thumbnail" src="img/geeth/img13.jpg">
+                        <img class="thumbnail" src="img/geeth/img14.jpg">
+                    </div>
+  
+                    <img id="slideRight" class="arrow" src="img/geeth/arrow-right.png">
+                </div>
+            </div>
+  
+            <div class="column">
+                <h1>Awesome Shoes</h1>
+                <hr>
+                <p class="text-left font">Price - $89.99</p>
+              <p class="text-left">Item location - Canada</p>
+              <p class="text-left">Contact- 2144946526</p>
+              <p class="text-left">Condition - brandnew</p>
+              <p class="text-left">Whether at work or play, the incredibly compact ASUS VivoBook 17 immerses you in whatever you set out to do. Its new thin-bezel display provides an amazing 85% screen-to-body ratio for visuals that draw you in, while the ErgoLift hinge tilts the keyboard to give you a comfortable typing position. VivoBook 17 is powered by up to the latest Intel® Core™ i7 processor, and features dual storage drives to help you get things done with the least amount of fuss.</p>
+          </div>
+  
+        </div>
+  
+        <script type="text/javascript">
+            let thumbnails = document.getElementsByClassName('thumbnail')
+  
+            let activeImages = document.getElementsByClassName('active')
+  
+            for (var i=0; i < thumbnails.length; i++){
+  
+                thumbnails[i].addEventListener('mouseover', function(){
+                    console.log(activeImages)
+  
+                    if (activeImages.length > 0){
+                        activeImages[0].classList.remove('active')
+                    }
+  
+  
+                    this.classList.add('active')
+                    document.getElementById('featured').src = this.src
+                })
+            }
+  
+  
+            let buttonRight = document.getElementById('slideRight');
+            let buttonLeft = document.getElementById('slideLeft');
+  
+            buttonLeft.addEventListener('click', function(){
+                document.getElementById('slider').scrollLeft -= 180
+            })
+  
+            buttonRight.addEventListener('click', function(){
+                document.getElementById('slider').scrollLeft += 180
+            })
+  
+  
+        </script>
+
+    <!-- Footer Section Begin -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-2 col-sm-6">
+                    <div class="footer__widget">
+                        <h5>COMPANY</h5>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Company</a></li>
+                            <li><a href="#">Press & Blog</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Faq</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="footer__widget">
+                        <h5>Courses</h5>
+                        <ul>
+                            <li><a href="#">Winter driving</a></li>
+                            <li><a href="#">Program for seniors</a></li>
+                            <li><a href="#">Adult in car lesons</a></li>
+                            <li><a href="#">Defensive driving</a></li>
+                            <li><a href="#">Stick shit lessons</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="footer__widget">
+                        <h5>USEFUL LINKS</h5>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Drupal Themes</a></li>
+                            <li><a href="#">WordPress Themes</a></li>
+                            <li><a href="#">Support</a></li>
+                            <li><a href="#">Services</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="footer__about">
+                        <div class="footer__logo">
+                            <a href="#"><img src="img/footer-logo.png" alt=""></a>
+                        </div>
+                        <p>Address : 15 Division Street, New York, NY 12032, United States of America</p>
+                        <ul>
+                            <li>Phone : +0 (123) 456789</li>
+                            <li>Email : Kaseo@gmail.com</li>
+                            <li>Fax : +8 (123) 456 789</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    <div class="footer__copyright__text">
+                        <p>Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved </p>
+                    </div>
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Search Begin -->
+    <div class="search-model">
+        <div class="h-100 d-flex align-items-center justify-content-center">
+            <div class="search-close-switch">+</div>
+            <form class="search-model-form">
+                <input type="text" id="search-input" placeholder="Search here.....">
+            </form>
+        </div>
+    </div>
+    <!-- Search End -->
+
+    <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
