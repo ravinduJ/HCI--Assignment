@@ -36,7 +36,7 @@ body {
 	height: 100%;
 	font-family: "Open Sans", sans-serif;
 	-webkit-font-smoothing: antialiased;
-	font-smoothing: antialiased;
+	font-smooth: antialiased;
 }
 
 h1,
@@ -200,6 +200,14 @@ ol {
 .primary-btn.second-bg {
 	background: #0c2b4b;
 }
+
+.btn-block{
+	border-style: none;
+	box-shadow: none;
+	border-radius: 0px;
+}
+
+
 
 .site-btn {
 	font-size: 14px;
@@ -377,7 +385,7 @@ ol {
 	top: 0;
 	width: 580px;
 	height: 100%;
-	background: #e9e7e7;
+	background:#fcc80a;
 	content: "";
 	z-index: -1;
 	-webkit-clip-path: polygon(0% 0%, 100% 0%, 96% 100%, 0% 100%);
