@@ -1,0 +1,22 @@
+.textarea-style{
+    border-style: none;
+}
+.textarea-style:hover{
+    border-style: solid;
+    border-color: #ffa41c;
+    border-width: 2px;
+    border-radius: 5px;
+}
+.card-text{
+    font-size: 30px;
+}
+.card{
+    border-style: none;
+}
+.form-head{
+    font-weight: bold;
+}
+
+.container{
+    padding-top: 10rem;
+}

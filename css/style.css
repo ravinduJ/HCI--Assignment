@@ -198,7 +198,7 @@ ol {
 }
 
 .primary-btn.second-bg {
-	background: #0c2b4b;
+	background: #f3bd00;
 }
 
 .btn-block{
@@ -212,7 +212,7 @@ ol {
 .site-btn {
 	font-size: 14px;
 	color: #ffffff;
-	background: #0c2b4b;
+	background: #2772bd;
 	font-weight: 700;
 	letter-spacing: 1px;
 	border: none;
@@ -220,6 +220,10 @@ ol {
 	display: inline-block;
 	padding: 14px 30px;
 }
+/* 
+.site-btn:hover{
+	background-color: ;
+} */
 
 .site-btn.second-bg {
 	background: #f3bd00;
@@ -501,7 +505,7 @@ ol {
 	width: 1px;
 	height: 15px;
 	background: rgba(255, 255, 255, 0.3);
-	content: "";
+	
 }
 
 .header__right__search i {
