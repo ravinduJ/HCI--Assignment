@@ -14,7 +14,10 @@
 
 .main-container{
     /* padding-top: 20rem; */
-    padding-top: 1rem;
+    padding-top: 6.4rem;
+    max-width: 98%;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 .heading-signup{
