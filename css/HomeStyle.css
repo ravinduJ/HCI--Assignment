@@ -34,11 +34,12 @@
 }
 
 .custom-hight{
-    height: 600px;
+    height: 700px;
+    max-width: 100%;
     
 
 }
 
 .position-slider{
-    padding-top: 6.3rem;
+    padding-top: 6.5rem;
 }

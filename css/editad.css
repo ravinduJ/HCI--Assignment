@@ -1,0 +1,11 @@
+.textarea-style{
+    background-color:#0c2b4b ;
+    border-style: none;
+    color: aliceblue;
+    font-size: 18px;
+
+}
+
+::placeholder{
+    color: aliceblue;
+}
